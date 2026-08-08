@@ -12,14 +12,25 @@ This repository serves as a workspace for code examples, hands-on exercises, min
 ## 📌 Repository Structure
 
 ```text
-Udemy_PracticalJava/
-├── docs/                   # Notes, summaries, and cheatsheets
-├── src/                    # Java source files organized by topic/section
-│   ├── section_01_basics/  # Variables, Data Types, Control Flow
-│   ├── section_02_oop/     # Classes, Objects, Inheritance, Polymorphism
-│   ├── section_03_collections/# Lists, Sets, Maps, Streams
-│   ├── section_04_exceptions/# Exception Handling & Debugging
-│   └── projects/           # Hands-on capstone projects & exercises
+learn_java_from_scratch/
+├── src/                    # Java source files organized by package
+│   └── com/
+│       ├── beginner/       # Beginner Java topics and code exercises
+│       │   ├── arrays/
+│       │   ├── controlflow/
+│       │   ├── datatypes/
+│       │   │   ├── objects/
+│       │   │   └── primitives/
+│       │   ├── endsection/
+│       │   ├── loops/
+│       │   ├── methods/
+│       │   ├── operators/
+│       │   ├── variables/
+│       │   └── yourfirstjavacode/
+│       ├── intermidiate/   # Intermediate Java topics
+│       ├── advanced/       # Advanced Java topics
+│       ├── expert/         # Expert Java topics
+│       └── hero/           # Hero level Java topics
 └── README.md               # Repository documentation
 ```
 
