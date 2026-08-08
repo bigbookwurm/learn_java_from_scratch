@@ -30,7 +30,8 @@ public class MyFirstJavaApp {
         float fuelConsumptionUrban = 21.4F;
         float fuelConsumptionExtraUrban = 13.6F;
 
-        // 6. double: 64-bit double-precision floating point - default for decimals (supports scientific notation)
+        // 6. double: 64-bit double-precision floating point - default for decimals
+        // (supports scientific notation)
         double fuelConsumptionPreciseAverage = 1.5234523534656456e1;
 
         // 7. boolean: Stores true or false state
@@ -59,5 +60,26 @@ public class MyFirstJavaApp {
         System.out.println("Number of vehicle owners: " + numberofVehicleOwners);
         System.out.println("Number of doors: " + numberofDoors);
         System.out.println("Number of seats: " + numberOfSeats);
+
+        // -------------------------------------------------------------
+        // IMPLICIT TYPE CONVERSIONS (WIDENING)
+        // -------------------------------------------------------------
+        System.out.println("Conversion");
+
+        // Implicit widening conversion: byte (8-bit) to short (16-bit)
+        short newNumberOfSeats = numberOfSeats;
+        System.out.println("The values of new number of seats: " + newNumberOfSeats);
+
+        // Implicit widening conversion: float (32-bit) to double (64-bit)
+        double newFuelConsumptionCombined = fuelConsumptionCombined;
+        System.out.println("The new value of combined fuel: " + newFuelConsumptionCombined);
+
+        // -------------------------------------------------------------
+        // EXPLICIT TYPE CONVERSION (NARROWING)
+        // -------------------------------------------------------------
+
+        // Explicit narrowing conversion: int (32-bit) to byte (8-bit)
+        byte newPower = (byte) power;
+        System.out.println("The new value of power: " + newPower + " kW");
     }
 }
