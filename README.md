@@ -74,15 +74,18 @@ java Main
 
 ## 🎯 Learning Progress Tracker
 
-- [x] **Section 1:** Course Introduction & Java Environment Setup
-- [ ] **Section 2:** Java Basics (Variables, Data Types, Operators)
-- [ ] **Section 3:** Control Flow (If-Else, Switch, Loops)
-- [ ] **Section 4:** Object-Oriented Programming (OOP) Fundamentals
-- [ ] **Section 5:** Advanced OOP (Interfaces, Abstract Classes, Inheritance)
-- [ ] **Section 6:** Data Structures & Java Collections Framework
-- [ ] **Section 7:** Exception Handling & File I/O
-- [ ] **Section 8:** Functional Programming & Java Streams
-- [ ] **Section 9:** Hands-on Projects & Exercises
+- [x] **Section 1:** Course Introduction
+- [x] **Section 2:** Java Environment Setup
+- [ ] **Section 3:** Beginner Level - Java Fundamentals
+- [ ] **Section 4:** Beginner Level - Final Practice
+- [ ] **Section 5:** Intermidiate Level - Object Oriented Programming
+- [ ] **Section 6:** Intermidiate Level - Final Practice
+- [ ] **Section 7:** Advanced Level - Collections, Generics, Exceptions, File Handling
+- [ ] **Section 8:** Advanced Level - Final Practice
+- [ ] **Section 9:** Expert Level - Collections, Multithreading, Streams, Lambda
+- [ ] **Section 10:** Expert Level - Final Practice
+- [ ] **Section 11:** Hero Level - Optional. Multithreading
+- [ ] **Section 12:** Hero Level - Final Practice
 
 ---
 
