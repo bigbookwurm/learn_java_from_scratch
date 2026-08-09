@@ -34,9 +34,6 @@ learn_java_from_scratch/
 └── README.md               # Repository documentation
 ```
 
-*(Note: Feel free to adjust the directory layout as you progress through the course sections!)*
-
----
 
 ## 🛠️ Prerequisites & Setup
 
@@ -52,7 +49,6 @@ java -version
 javac -version
 ```
 
----
 
 ## 🚀 Getting Started & How to Run
 
@@ -78,7 +74,7 @@ java Main
 
 ## 🎯 Learning Progress Tracker
 
-- [ ] **Section 1:** Course Introduction & Java Environment Setup
+- [x] **Section 1:** Course Introduction & Java Environment Setup
 - [ ] **Section 2:** Java Basics (Variables, Data Types, Operators)
 - [ ] **Section 3:** Control Flow (If-Else, Switch, Loops)
 - [ ] **Section 4:** Object-Oriented Programming (OOP) Fundamentals
