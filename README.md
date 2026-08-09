@@ -49,29 +49,6 @@ java -version
 javac -version
 ```
 
-
-## 🚀 Getting Started & How to Run
-
-### 1. Compiling and Running via Command Line
-To compile and run a standalone Java file:
-```bash
-# Navigate to source directory
-cd src/section_01_basics
-
-# Compile Java file to bytecode
-javac Main.java
-
-# Run compiled Java class
-java Main
-```
-
-### 2. Running in an IDE (IntelliJ IDEA / VS Code)
-1. Open this folder as a project in your IDE.
-2. Ensure your JDK SDK is configured (Java 17+ recommended).
-3. Navigate to any `.java` file containing a `public static void main(String[] args)` method and click **Run**.
-
----
-
 ## 🎯 Learning Progress Tracker
 
 - [x] **Section 1:** Course Introduction
