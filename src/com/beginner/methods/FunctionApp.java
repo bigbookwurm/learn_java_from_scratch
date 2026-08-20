@@ -4,7 +4,7 @@ package com.beginner.methods;
  * FunctionApp demonstrates basic concepts and usage of Java Methods (Functions):
  * - Void methods vs. Methods that return values
  * - Methods without parameters vs. Methods with parameters
- * - Execution control flow using loops inside methods
+ * - Execution control flow (loops, switch-case statements) inside methods
  * - Method Overloading (same method name, different parameter types/signatures)
  */
 public class FunctionApp {
@@ -24,6 +24,9 @@ public class FunctionApp {
 
         // Calling an overloaded discount method (double price, int percent)
         System.out.println("The price with 40% off: " + getDiscountPrice(20000.55, 60));
+
+        // Calling a method with a char parameter that uses a switch statement
+        getEnergyEfficiency('A');
     }
 
     /**
@@ -46,7 +49,8 @@ public class FunctionApp {
     }
 
     /**
-     * Method that takes an integer price and returns the price after a fixed 10% discount.
+     * Method that takes an integer price and returns the price after a fixed 10%
+     * discount.
      * 
      * @param price The original price as an integer.
      * @return The final price after 10% discount as a double (price * 0.9).
@@ -68,7 +72,8 @@ public class FunctionApp {
 
     /**
      * Overloaded version of getDiscountPrice that accepts a double price.
-     * Demonstrates Method Overloading (same method name, different parameter types).
+     * Demonstrates Method Overloading (same method name, different parameter
+     * types).
      * 
      * @param price   The original price as a double.
      * @param percent The percentage factor.
@@ -76,6 +81,40 @@ public class FunctionApp {
      */
     static double getDiscountPrice(double price, int percent) {
         return price * percent / 100;
+    }
+
+    /**
+     * Method that evaluates a char category ('A'-'E' or 'a'-'e') and prints the energy efficiency level.
+     * Demonstrates using a switch statement inside a method with case fall-through for case-insensitive matching.
+     * 
+     * @param category Character representing the energy rating ('A' to 'E').
+     */
+    static void getEnergyEfficiency(char category) {
+        switch (category) {
+            case 'A':
+            case 'a': // Case fall-through handles both uppercase 'A' and lowercase 'a'
+                System.out.println("High Efficiency");
+                break;
+            case 'B':
+            case 'b': // Case fall-through handles both uppercase 'B' and lowercase 'b'
+                System.out.println("Average Efficiency");
+                break;
+            case 'C':
+            case 'c': // Case fall-through handles both uppercase 'C' and lowercase 'c'
+                System.out.println("Low Efficiency");
+                break;
+            case 'D':
+            case 'd': // Case fall-through handles both uppercase 'D' and lowercase 'd'
+                System.out.println("Very Low Efficiency");
+                break;
+            case 'E':
+            case 'e': // Case fall-through handles both uppercase 'E' and lowercase 'e'
+                System.out.println("Minimal Efficiency");
+                break;
+            default: // Handles invalid or unrecognized rating characters
+                System.out.println("Unknown Category");
+                break;
+        }
     }
 
 }
