@@ -53,8 +53,8 @@ javac -version
 
 - [x] **Section 1:** Course Introduction
 - [x] **Section 2:** Java Environment Setup
-- [ ] **Section 3:** Beginner Level - Java Fundamentals
-- [ ] **Section 4:** Beginner Level - Final Practice
+- [x] **Section 3:** Beginner Level - Java Fundamentals
+- [x] **Section 4:** Beginner Level - Final Practice
 - [ ] **Section 5:** Intermidiate Level - Object Oriented Programming
 - [ ] **Section 6:** Intermidiate Level - Final Practice
 - [ ] **Section 7:** Advanced Level - Collections, Generics, Exceptions, File Handling
