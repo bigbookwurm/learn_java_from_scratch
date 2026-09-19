@@ -27,7 +27,18 @@ learn_java_from_scratch/
 │       │   ├── operators/
 │       │   ├── variables/
 │       │   └── yourfirstjavacode/
-│       ├── intermidiate/   # Intermediate Java topics
+│       ├── intermediate/   # Intermediate Java topics
+│       │   ├── abstraction/
+│       │   ├── classesandobjects/
+│       │   ├── comment/
+│       │   ├── defaultvalues/
+│       │   ├── encapsulation/
+│       │   ├── endsection/
+│       │   ├── finalkeyword/
+│       │   ├── inheritance/
+│       │   ├── polymorphism/
+│       │   ├── statickeyword/
+│       │   ├── stringfunctions/
 │       ├── advanced/       # Advanced Java topics
 │       ├── expert/         # Expert Java topics
 │       └── hero/           # Hero level Java topics
@@ -55,8 +66,8 @@ javac -version
 - [x] **Section 2:** Java Environment Setup
 - [x] **Section 3:** Beginner Level - Java Fundamentals
 - [x] **Section 4:** Beginner Level - Final Practice
-- [ ] **Section 5:** Intermidiate Level - Object Oriented Programming
-- [ ] **Section 6:** Intermidiate Level - Final Practice
+- [ ] **Section 5:** Intermediate Level - Object-Oriented Programming
+- [ ] **Section 6:** Intermediate Level - Final Practice
 - [ ] **Section 7:** Advanced Level - Collections, Generics, Exceptions, File Handling
 - [ ] **Section 8:** Advanced Level - Final Practice
 - [ ] **Section 9:** Expert Level - Collections, Multithreading, Streams, Lambda
@@ -71,7 +82,7 @@ javac -version
 * **Entry Point:** Every executable Java application starts with a `main` method:
   ```java
   public class Main {
-      public static void main(String[] args) {
+      static void main(String[] args) {
           System.out.println("Hello, Java!");
       }
   }
